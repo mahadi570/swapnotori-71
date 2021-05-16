@@ -1,0 +1,36 @@
+@media only screen and (max-width:450px) {
+    body{
+        width: 400px;
+        padding: none;
+        margin: none;
+    }
+    nav ul{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .start{
+        font-size: 15px;
+        width: 400px;
+    }
+    .start h1{
+        text-align: left;
+    }
+    .flag{
+        float: left;
+        height: auto;
+        margin-left: 10px;
+    }
+    img{
+        width: 100%;
+        margin: auto;
+    }
+    .national-song{
+        float: left;
+        height: auto;
+        border: 2px solid red;
+    }
+    table{
+        margin-left: 0px;
+    }
+}

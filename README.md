@@ -1,1 +1,1 @@
-# swapnotori-71.com
+# swapnotori71.com

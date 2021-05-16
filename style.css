@@ -7,33 +7,29 @@
 }
 
 body {
-    background: #262626 linear-gradient(to right, green, red, green);
+    /*    background: #262626 linear-gradient(to right, green, red, green);*/
     font-family: 'Hind Siliguri', 'Oswald', sans-serif;
 }
 
 nav {
     background-color: rgba(218, 37, 37, 0.466);
+    position: sticky;
 }
 
-nav ul {
+.navbar ul {
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.navbar {
+.navbar ul li {
     list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
     padding: 10px 20px;
     border-radius: 10px;
-
 }
 
-nav ul li a {
+
+.navbar a {
     text-decoration: none;
     font-size: 18px;
     color: #000;
@@ -43,37 +39,53 @@ nav ul li a {
 nav ul li:hover {
     background-color: green;
     transition: .7s;
+    color: white;
 }
 
-.start {
-    height: 40px;
-    padding: 10px;
-    font-weight: bold;
-    background: linear-gradient(to right, whitesmoke, purple, orange, cyan, grey, whitesmoke);
-}
-
-.start h1 {
-    text-align: center;
-    color: black;
-
+.full-home-container {
+    background: grey;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 #home {
     overflow: hidden;
 }
 
+.tasmiyah {
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    background: linear-gradient(to right, whitesmoke, purple, orange, cyan, grey, whitesmoke);
+}
+
+.tasmiyah h1 {
+    text-align: center;
+    color: black;
+}
+
+.home {
+    font-family: 'oswald';
+    font-weight: bold;
+    color: orange;
+    display: block;
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+    text-align: center;
+}
+
 .flag {
     float: left;
-    height: 250px;
+    height: 300px;
     margin: 10px;
     padding: 20px;
     background-color: #0776BB;
     border-radius: 10px;
-}
-
-.flag img {
-    width: auto;
-    height: auto
+    display: block;
 }
 
 .national-song {
@@ -81,9 +93,9 @@ nav ul li:hover {
     margin: 10px;
     padding: 20px;
     background-color: black;
-    /* height: 250px; */
+    height: 300px;
     border-radius: 10px;
-
+    display: block;
 }
 
 .national-song h2 {
@@ -97,51 +109,89 @@ nav ul li:hover {
     color: wheat;
 }
 
-#table-container {
-    margin-top: 50px;
-    padding: 10px;
-    display: block;
-    width: 100%;
+.short-bio {
+    overflow: hidden;
+    width: 40%;
+    border: 3px solid purple;
+    margin: 50px auto;
+    border-radius: 15px;
+    background: whitesmoke;
 }
 
-#table-container table td {
-    border: 3px solid black;
-    text-align: center;
-}
-
-thead {
-    color: rgb(124, 182, 31);
-    border: 2px solid burlywood;
+.short-bio h2,
+.short-bio p {
+    padding: 20px;
     font-weight: bold;
 }
 
-table {
+.full-notice-container {
+    background: purple;
+    width: 90%;
     margin: auto;
-    font-size: large bold;
-    color: wheat;
-    width: 70%;
-    border-collapse: collapse;
-    background: grey;
+    border-radius: 15px;
+    padding: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: wheat;
-}
-
-#contact-container {
-    display: flex;
+.notice-board {
     margin: auto;
-    width: 60%;
-}
-
-#contact-container div {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 3px solid black;
+    border-radius: 15px;
     text-align: center;
-    width: 30%;
 }
-footer{
+
+.full-members-container {
+    background: cyan;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(to right, whitesmoke, purple, orange, cyan, grey, whitesmoke);
+}
+
+table {
+    display: inline-block;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.members-container {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.members-container table td {
+    border: 3px solid grey;
+    padding: 5px;
+    color: darkblue;
+}
+
+iframe {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.full-contact-container {
+    background: grey;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.iframe-class {
+    margin: auto;
+    width: 50%;
+    float: center;
+}
+
+footer {
     margin-bottom: 0;
 }
+
 footer p {
     margin: auto;
     width: 400px;
