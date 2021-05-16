@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #262626 linear-gradient(to right, green, red, green);
+    font-family: 'Hind Siliguri', 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: rgba(218, 37, 37, 0.466);
+}
+
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-family: sans-serif;
+}
+
+nav ul li:hover {
+    background-color: green;
+    transition: .7s;
+}
+
+.start {
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    background: linear-gradient(to right, whitesmoke, purple, orange, cyan, grey, whitesmoke);
+}
+
+.start h1 {
+    text-align: center;
+    color: black;
+
+}
+
+#home {
+    overflow: hidden;
+}
+
+.flag {
+    float: left;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #0776BB;
+    border-radius: 10px;
+}
+
+.flag img {
+    width: auto;
+    height: auto
+}
+
+.national-song {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    /* height: 250px; */
+    border-radius: 10px;
+
+}
+
+.national-song h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.national-song p {
+    text-align: center;
+    padding: 20px;
+    color: wheat;
+}
+
+#table-container {
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+#table-container table td {
+    border: 3px solid black;
+    text-align: center;
+}
+
+thead {
+    color: rgb(124, 182, 31);
+    border: 2px solid burlywood;
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    font-size: large bold;
+    color: wheat;
+    width: 70%;
+    border-collapse: collapse;
+    background: grey;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+#contact-container {
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+
+#contact-container div {
+    text-align: center;
+    width: 30%;
+}
+footer{
+    margin-bottom: 0;
+}
+footer p {
+    margin: auto;
+    width: 400px;
+    padding-top: 50px;
+    text-align: center;
+    color: grey;
+    background: whitesmoke;
+    border-radius: 10px;
+}
