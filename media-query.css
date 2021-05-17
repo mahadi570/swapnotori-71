@@ -9,17 +9,21 @@
         flex-direction: column;
         text-align: center;
     }
-    .start{
-        font-size: 15px;
-        width: 400px;
+    .tasmiyah{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
     }
-    .start h1{
-        text-align: left;
+    .tasmiyah h1{
+        font-size: 25px;
+        text-align: center;
+        color: white;
     }
     .flag{
         float: left;
-        height: auto;
-        margin-left: 10px;
+        height: 200px;
+        width: 400;
+        border: 3px solid
     }
     img{
         width: 100%;
@@ -29,8 +33,37 @@
         float: left;
         height: auto;
         border: 2px solid red;
+        font-size: 11px;
+    }
+    .national-song h2{
+        border: 2px solid green;
+        padding: 0;
+        margin: 0;
+    }
+    .short-bio{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .notice-board{
+        width: 90%;
+        height: auto;
+    }
+    .full-members-container,
+    caption h1,
+    .members-container table td{
+        color: white;
+        background: black;
     }
     table{
-        margin-left: 0px;
+        font-size: small;
+    }
+    table a{
+        text-decoration: none;
+        color: white;
+    }
+    iframe{
+        width: 100%;
+        /* float: left; */
+        height: auto;
     }
 }
