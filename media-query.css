@@ -9,6 +9,9 @@
         flex-direction: column;
         text-align: center;
     }
+    nav{
+        position: relative;
+    }
     .tasmiyah{
         width: 90%;
         margin: auto;
@@ -57,7 +60,7 @@
     table{
         font-size: small;
     }
-    table a{
+    table td a{
         text-decoration: none;
         color: white;
     }
